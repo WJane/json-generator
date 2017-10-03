@@ -1,1 +1,10 @@
-
+{
+  "content": {
+    name: 'string',
+    age: 'number',
+    hobbies: 'array',
+    info: 'object',
+  },
+  "count": 23,
+  "format": 'json',
+}
