@@ -1,0 +1,29 @@
+{
+  "name": "json-generator",
+  "version": "1.0.0",
+  "description": "generate json ",
+  "main": "index.js",
+  "scripts": {
+    "start": "mkdir dist && babel index.js -o dist.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WJane/json-generator.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "wz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WJane/json-generator/issues"
+  },
+  "homepage": "https://github.com/WJane/json-generator#readme",
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1"
+  }
+}
